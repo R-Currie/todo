@@ -1,24 +1,28 @@
-# README
+# Todo List
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### [Link](https://todo-list-r-currie.herokuapp.com/) to live app
 
-Things you may want to cover:
+A todo list that uses a built in API to store tasks and their completion.
 
-* Ruby version
+### Getting Started
+* Add new tasks
+* Mark off completed tasks
 
-* System dependencies
+### Technologies
+* Ruby 2.5.3
+* Rails 5.2.3
+* PostgreSQL
+* Rspec 3.5
+* Factory Bot
+* jQuery
 
-* Configuration
 
-* Database creation
+### Installing
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Clone the repo
+> git clone https://github.com/R-Currie/todo.git
+2. Run bundle install inside project root
+> bundle install
+3. Start server
+> rails server -b 0.0.0.0 -p 3000
+4. Enjoy!
